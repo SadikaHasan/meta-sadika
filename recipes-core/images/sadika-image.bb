@@ -11,6 +11,7 @@ IMAGE_INSTALL:append = " \
 	nano vim \
 	connman-client \
 	i2c-tools ssd1306 \
+	displaytext \
 "
 
 EXTRA_IMAGE_FEATURES += "ssh-server-dropbear debug-tweaks tools-debug"
